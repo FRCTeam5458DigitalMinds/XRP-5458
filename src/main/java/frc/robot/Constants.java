@@ -38,9 +38,9 @@ public final class Constants {
         public static final double DRIVE_SPEED = 0.50;
         public static final double TURN_SPEED = 0.35;
 
-        public static final double DISTANCE_1_METERS = 1.0;
+        public static final double DISTANCE_1_METERS = 0.5;
         public static final double TURN_ANGLE_DEGREES = 90.0;
-        public static final double DISTANCE_2_METERS = 1.0;
+        public static final double DISTANCE_2_METERS = 0.5;
 
         private DriveConstants() {}
     }
