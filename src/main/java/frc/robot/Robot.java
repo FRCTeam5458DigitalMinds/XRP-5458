@@ -30,7 +30,7 @@ public class Robot extends TimedRobot {
                 robotContainer.getAutonomousCommand();
 
         if (autonomousCommand != null) {
-            //autonomousCommand.schedule();
+            autonomousCommand.schedule();
         }
     }
 
@@ -70,5 +70,10 @@ public class Robot extends TimedRobot {
     @Override
     public void testPeriodic() {
         // Nothing required.
+    }
+
+    @Override
+    public void simulationPeriodic(){
+        // Nothing required
     }
 }

@@ -59,9 +59,7 @@ public class RobotContainer {
         );
     }
 
-    private static final double DISTANCE_1_METERS =
-            Constants.DriveConstants.DISTANCE_1_METERS;
+    private static final double DISTANCE_1_METERS = Constants.DriveConstants.DISTANCE_1_METERS;
 
-    private static final double DISTANCE_2_METERS =
-            Constants.DriveConstants.DISTANCE_2_METERS;
+    private static final double DISTANCE_2_METERS = Constants.DriveConstants.DISTANCE_2_METERS;
 }
