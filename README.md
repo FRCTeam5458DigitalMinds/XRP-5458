@@ -1,6 +1,6 @@
 ## XRP-5458
 
-blah blah blah
+A XRP training repository for FRC Team 5458 (Digital Minds) developers, covering the fundamentals of FIRST Robotics programming.
 
 
 ### File Overview:
@@ -22,6 +22,7 @@ blah blah blah
 
 ### Resource Links:
 
+- [WPILib: XRP Hardware, Assembly, and Imaging](https://docs.wpilib.org/en/latest/docs/xrp-robot/hardware-and-imaging.html)
 - [WPILib: Programming the XRP](https://docs.wpilib.org/en/latest/docs/xrp-robot/programming-xrp.html)
 - [WPILib: Getting to know your XRP](https://docs.wpilib.org/en/stable/docs/xrp-robot/getting-to-know-xrp.html)
 - [WPILib: The XRP Web UI](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html)
