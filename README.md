@@ -6,8 +6,8 @@ A XRP training repository for FRC Team 5458 (Digital Minds) developers, covering
 ### File Overview:
 
 - `src/main/java/frc/robot/Main.java` — Entry point of the application.
-- `src/main/java/frc/robot/Robot.java` — Manages when things happen.
-- `src/main/java/frc/robot/RobotContainer.java` — Robot configuration.
+- `src/main/java/frc/robot/Robot.java` — Handles robot lifecycle: disabled, autonomous, teleop, test.
+- `src/main/java/frc/robot/RobotContainer.java` — Connects subsystems, commands, controllers, and autonomous routines.
 - `src/main/java/frc/robot/Constants.java` — Fixed values for system wide settings.
 - `src/main/java/frc/robot/subsystems/Drivetrain.java` — Drivetrain subsystem.
 - `src/main/java/frc/robot/subsystems/Arm.java` — Arm subsystem.
