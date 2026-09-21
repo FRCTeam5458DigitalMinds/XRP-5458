@@ -58,6 +58,11 @@ public class Drivetrain extends SubsystemBase {
     m_diffDrive.arcadeDrive(xaxisSpeed, zaxisRotate);
   }
 
+  /** Stops both drivetrain motors. */
+  public void stop() {
+    m_diffDrive.stopMotor();
+  }
+
   public void resetEncoders() {
     m_leftEncoder.reset();
     m_rightEncoder.reset();
