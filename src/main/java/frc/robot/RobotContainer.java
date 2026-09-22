@@ -13,6 +13,7 @@ import frc.robot.commands.Autonomous5458;
 //import frc.robot.commands.AutonomousTime;
 //import frc.robot.subsystems.Arm;
 import frc.robot.subsystems.Drivetrain;
+import frc.robot.subsystems.DistanceSensor;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj.xrp.XRPOnBoardIO;
@@ -33,6 +34,7 @@ public class RobotContainer {
   // The robot's subsystems and commands are defined here...
   private final Drivetrain m_drivetrain = new Drivetrain();
   private final XRPOnBoardIO m_onboardIO = new XRPOnBoardIO();
+  private final DistanceSensor m_distanceSensor = new DistanceSensor();
   //private final Arm m_arm = new Arm();
 
 
@@ -76,7 +78,7 @@ public class RobotContainer {
     //     .onFalse(new InstantCommand(() -> m_arm.setAngle(0.0), m_arm));
 
     // Setup SmartDashboard options
-    m_chooser.setDefaultOption("Autos 5458", new Autonomous5458(m_drivetrain));
+    m_chooser.setDefaultOption("Autos 5458", new Autonomous5458(m_drivetrain,m_distanceSensor));
     //m_chooser.setDefaultOption("Auto Routine Distance", new AutonomousDistance(m_drivetrain));
     //m_chooser.addOption("Auto Routine Time", new AutonomousTime(m_drivetrain));
     SmartDashboard.putData(m_chooser);
