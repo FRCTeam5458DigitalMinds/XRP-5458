@@ -26,5 +26,7 @@ A XRP training repository for FRC Team 5458 (Digital Minds) developers, covering
 - [WPILib: Programming the XRP](https://docs.wpilib.org/en/latest/docs/xrp-robot/programming-xrp.html)
 - [WPILib: Getting to know your XRP](https://docs.wpilib.org/en/stable/docs/xrp-robot/getting-to-know-xrp.html)
 - [WPILib: The XRP Web UI](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html)
+- [WPILib: Creating a Robot Program](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html)
+- [WPIlib: Command-Based Programming](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html#command-based-programming)
 - [WPILib: Structuring a Command-Based Robot Project](https://docs.wpilib.org/en/latest/docs/software/commandbased/commands-v2/structuring-command-based-project.html)
 - [PID Control in WPILib](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/controllers/pidcontroller.html)
