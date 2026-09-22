@@ -1,46 +1,19 @@
 package frc.robot.commands;
 
 import frc.robot.subsystems.Drivetrain;
-import edu.wpi.first.wpilibj2.command.Command;
 
-public class Autonomous5458 extends Command {
+import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
 
-    private final Drivetrain m_drive;
+import frc.robot.Constants.Auto5458Constants;
 
-    public Autonomous5458(Drivetrain drive)
+public class Autonomous5458 extends SequentialCommandGroup 
+{
+
+    public Autonomous5458(Drivetrain drivetrain)
     {
-        m_drive = drive;
-        addRequirements(drive);
-    }
-
-    // Called when the command is initially scheduled.
-    @Override
-    public void initialize() {
-        m_drive.arcadeDrive(0, 0);
-        m_drive.resetEncoders();
-    } 
-
-    // Called every time the scheduler runs while the command is scheduled.
-    @Override
-    public void execute() {
-        //m_drive.arcadeDrive(m_speed, 0);
-
-        //
-        //Do stuff here
-        //
-    }
-
-    // Called once the command ends or is interrupted.
-    @Override
-    public void end(boolean interrupted) {
-        //m_drive.arcadeDrive(0, 0);
-        m_drive.stop();
-    }
-
-    // Returns true when the command should end.
-    @Override
-    public boolean isFinished() {
-        return true;
+        addCommands(
+        new DriveDistance(Auto5458Constants.DRIVE_SPEED_FAST,Auto5458Constants.DRIVE_DISTANCE_FAR, drivetrain),
+        new TurnDegrees(Auto5458Constants.TURN_SPEED_RIGHT, 90.0, drivetrain));
     }
 
 }
