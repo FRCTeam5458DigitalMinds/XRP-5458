@@ -2,6 +2,17 @@
 
 A XRP training repository for FRC Team 5458 (Digital Minds) developers, covering the fundamentals of FIRST Robotics programming.
 
+### Resource Links:
+
+- [WPILib: XRP Hardware, Assembly, and Imaging](https://docs.wpilib.org/en/latest/docs/xrp-robot/hardware-and-imaging.html)
+- [WPILib: Programming the XRP](https://docs.wpilib.org/en/latest/docs/xrp-robot/programming-xrp.html)
+- [WPILib: Getting to know your XRP](https://docs.wpilib.org/en/stable/docs/xrp-robot/getting-to-know-xrp.html)
+- [WPILib: The XRP Web UI](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html)
+- [WPILib: Creating a Robot Program](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html)
+- [WPILib: Commands v2 Programming](https://docs.wpilib.org/en/latest/docs/software/commandbased/commands-v2/index.html)
+- [WPIlib: Command-Based Programming](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html#command-based-programming)
+- [WPILib: Structuring a Command-Based Robot Project](https://docs.wpilib.org/en/latest/docs/software/commandbased/commands-v2/structuring-command-based-project.html)
+- [PID Control in WPILib](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/controllers/pidcontroller.html)
 
 ### File Overview:
 
@@ -20,13 +31,4 @@ A XRP training repository for FRC Team 5458 (Digital Minds) developers, covering
 - `src/main/java/frc/robot/commands/TurnTime.java` — Command to turn for a set time.
 
 
-### Resource Links:
 
-- [WPILib: XRP Hardware, Assembly, and Imaging](https://docs.wpilib.org/en/latest/docs/xrp-robot/hardware-and-imaging.html)
-- [WPILib: Programming the XRP](https://docs.wpilib.org/en/latest/docs/xrp-robot/programming-xrp.html)
-- [WPILib: Getting to know your XRP](https://docs.wpilib.org/en/stable/docs/xrp-robot/getting-to-know-xrp.html)
-- [WPILib: The XRP Web UI](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html)
-- [WPILib: Creating a Robot Program](https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html)
-- [WPIlib: Command-Based Programming](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html#command-based-programming)
-- [WPILib: Structuring a Command-Based Robot Project](https://docs.wpilib.org/en/latest/docs/software/commandbased/commands-v2/structuring-command-based-project.html)
-- [PID Control in WPILib](https://docs.wpilib.org/en/stable/docs/software/advanced-controls/controllers/pidcontroller.html)
