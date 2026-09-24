@@ -22,6 +22,8 @@ public final class Constants {
 
   public static class Auto5458Constants {
     
+    public static final double DRIVE_DISTANCE_JOURNEY = 16.00;
+    public static final double DRIVE_DISTANCE_EXTRAFAR = 11.00;
     public static final double DRIVE_DISTANCE_FAR = 8.0;
     public static final double DRIVE_DISTANCE_MEDIUM = 5.0;
     public static final double DRIVE_DISTANCE_SHORT = 3.0; 
